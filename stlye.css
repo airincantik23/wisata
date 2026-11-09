@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 500ms;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: black;
+    text-align: justify;
+}
+
+.body {
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+}
+
+.card{
+    border: solid 2px black;
+    padding: 10px;
+
+}
+
+.judul-card{
+    border-bottom: solid 2px black;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.judul-card h2{
+    font-size: 1.2rem;
+    margin-bottom: ;
+}
+
+@media (min-width:760px) {
+    .md-grid-2{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1020px) {
+    .ig-grid-3 (
+        grid-template-columns: 1fr 1fr 1fr;
+    )
+}
